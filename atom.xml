@@ -6,7 +6,7 @@
   <link href="https://solicey.github.io/atom.xml" rel="self"/>
   
   <link href="https://solicey.github.io/"/>
-  <updated>2022-07-07T10:25:42.652Z</updated>
+  <updated>2022-07-07T13:12:57.597Z</updated>
   <id>https://solicey.github.io/</id>
   
   <author>
@@ -17,19 +17,74 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Hexo博客备忘录</title>
+    <link href="https://solicey.github.io/wiki/Logs/Hexo%E5%8D%9A%E5%AE%A2%E5%A4%87%E5%BF%98%E5%BD%95/"/>
+    <id>https://solicey.github.io/wiki/Logs/Hexo%E5%8D%9A%E5%AE%A2%E5%A4%87%E5%BF%98%E5%BD%95/</id>
+    <published>2022-07-07T12:43:12.256Z</published>
+    <updated>2022-07-07T13:12:57.597Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="引用本地图片"><a href="#引用本地图片" class="headerlink" title="引用本地图片"></a>引用本地图片</h2><p>按照官方的 <a href="https://link.zhihu.com/?target=https%3A//hexo.io/zh-cn/docs/asset-folders.html">asset-folders</a> 的方法处理图片引用，在本地预览时是无法显示的，参考文章 <a href="https://link.zhihu.com/?target=http%3A//etrd.org/2017/01/23/hexo%25E4%25B8%25AD%25E5%25AE%258C%25E7%25BE%258E%25E6%258F%2592%25E5%2585%25A5%25E6%259C%25AC%25E5%259C%25B0%25E5%259B%25BE%25E7%2589%2587/">hexo中完美插入本地图片</a> ，总结出如下的解决方案：</p><p>（1）开启 <code>post_asset_folder</code></p><figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">// config.yml</span><br><span class="line">post_asset_folder: true</span><br></pre></td></tr></table></figure><p>（2）安装 <code>hexo-asset-image</code> 插件</p><figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install https://github.com/CodeFalling/hexo-asset-image --save</span><br></pre></td></tr></table></figure><p>（3）使用方式</p><ol><li>在与 <code>_posts/my_article.md</code>的平级位置上创建文件夹 <code>my_article</code>；</li><li>放置 <code>my_article.md</code> 文件中引用到的图片，例如 <code>my_pic.jpg</code>；</li><li>在 <code>my_article.md</code> 以 <code>![my_pic](my_article/my_pic.jpg)</code> 方式引用。</li></ol>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;引用本地图片&quot;&gt;&lt;a href=&quot;#引用本地图片&quot; class=&quot;headerlink&quot; title=&quot;引用本地图片&quot;&gt;&lt;/a&gt;引用本地图片&lt;/h2&gt;&lt;p&gt;按照官方的 &lt;a href=&quot;https://link.zhihu.com/?target=https%3A</summary>
+      
+    
+    
+    
+    <category term="日志" scheme="https://solicey.github.io/categories/%E6%97%A5%E5%BF%97/"/>
+    
+    
+    <category term="hexo" scheme="https://solicey.github.io/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>01.基本变换矩阵总结</title>
+    <link href="https://solicey.github.io/wiki/GAMES101/2022-07-07-[01]%E5%9F%BA%E6%9C%AC%E5%8F%98%E6%8D%A2%E7%9F%A9%E9%98%B5%E6%80%BB%E7%BB%93/"/>
+    <id>https://solicey.github.io/wiki/GAMES101/2022-07-07-[01]%E5%9F%BA%E6%9C%AC%E5%8F%98%E6%8D%A2%E7%9F%A9%E9%98%B5%E6%80%BB%E7%BB%93/</id>
+    <published>2022-07-07T12:41:32.987Z</published>
+    <updated>2022-07-07T15:41:31.769Z</updated>
+    
+    <content type="html"><![CDATA[<p>参考资料：<a href="https://blog.csdn.net/qq_38065509/article/details/105156501">计算机图形学一：基础变换矩阵总结(缩放，旋转，位移)</a></p><h2 id="2D线性变换"><a href="#2D线性变换" class="headerlink" title="2D线性变换"></a>2D线性变换</h2><p>将如下矩阵乘法定义为对向量$(x,y)^T$的线性变换。</p><script type="math/tex; mode=display">\begin{bmatrix}a_{11} & a_{12} \\a_{21} & a_{22}\end{bmatrix}\begin{bmatrix}x\\y\end{bmatrix}=\begin{bmatrix}a_{11}x + a_{12}y \\a_{21}x + a_{22}y\end{bmatrix}\hspace{50cm}</script><h3 id="缩放"><a href="#缩放" class="headerlink" title="缩放"></a>缩放</h3><p>缩放使一种沿着坐标轴作用的变换，定义如下：</p><script type="math/tex; mode=display">scale(s_x,s_y)=\begin{bmatrix}s_x & 0 \\0 & s_y\end{bmatrix}\hspace{50cm}</script><p>即除了$(0,0)^T$保持不变以外，其他点变为$(s_xx,s_yy)^T$.</p><h3 id="剪切"><a href="#剪切" class="headerlink" title="剪切"></a>剪切</h3>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;参考资料：&lt;a href=&quot;https://blog.csdn.net/qq_38065509/article/details/105156501&quot;&gt;计算机图形学一：基础变换矩阵总结(缩放，旋转，位移)&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;2D线性变换&quot;&gt;&lt;a href=&quot;#2</summary>
+      
+    
+    
+    
+    <category term="图形学" scheme="https://solicey.github.io/categories/%E5%9B%BE%E5%BD%A2%E5%AD%A6/"/>
+    
+    <category term="GAMES101" scheme="https://solicey.github.io/categories/%E5%9B%BE%E5%BD%A2%E5%AD%A6/GAMES101/"/>
+    
+    
+    <category term="线性代数" scheme="https://solicey.github.io/tags/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/"/>
+    
+    <category term="CS" scheme="https://solicey.github.io/tags/CS/"/>
+    
+    <category term="图形学" scheme="https://solicey.github.io/tags/%E5%9B%BE%E5%BD%A2%E5%AD%A6/"/>
+    
+  </entry>
+  
+  <entry>
     <title>云知计划3.0</title>
-    <link href="https://solicey.github.io/wiki/hello-world/"/>
-    <id>https://solicey.github.io/wiki/hello-world/</id>
+    <link href="https://solicey.github.io/wiki/Logs/hello-world/"/>
+    <id>https://solicey.github.io/wiki/Logs/hello-world/</id>
     <published>2022-07-07T05:28:45.540Z</published>
-    <updated>2022-07-07T10:25:42.652Z</updated>
+    <updated>2022-07-07T14:45:37.480Z</updated>
     
-    <content type="html"><![CDATA[<p>窃以为，创造乃是学习的一大动力。</p><p>在高中的时候，我们反反复复地经历各种各样的考试。这些考试会频繁地给予我们正面的或是负面的反馈。正面的反馈鼓舞人心，负面的反馈催人上进。打个不恰当的比喻，考试就如同胡萝卜加大棒，时而给我们尝点甜头，时而又让我们吃点苦。我们在高中时期的学习动力很大一部分来源于这些喜怒无常的考试结果。</p><p>然而，上大学后，我们只能在期中和期末获取来自考试的反馈。如果仍然以考试结果作为学习的主要动力的话，我个人认为这是难以维系的。另外，我们需要认识到，高中时代的落幕意味着应试教育的退场，考试将不再是我们学习的唯一目的。我们从今往后所学的一切知识，都是为了更崇高、也更有意义的目的，那就是创造。</p><p>人与机器的最大差别就在于是否懂得<strong>自主创造</strong>。以往，我们机械地回答着试卷上的一道道问题，考试将我们异化成为了考试而学习的做题机器，我们的一切“创造”都离不开问题的引导。如今，我们若要实现身份的转变，就要学会自己“创造”问题并解决问题，并在此过程中获取巨大的成就感与继续学习的动力。只有这样，我们才能脱离做题家的思维定式，成为一个能够用自身所学自主创造新事物的完整的人。</p><p>云知计划，旨在将我所学到的知识内化于心，外化于一篇篇云端笔记。可以说，高中时代的最大创造活动非记笔记莫属了，但彼时的笔记带有很强的功利性与目的性，<a href="https://solitude21.gitee.io/">云知计划1.0</a>与云知计划2.0仅仅围绕六门主科展开，应试色彩浓厚。如今的云知计划3.0着眼于更广泛的学科内容，收录的所有笔记都将为未来的创造活动提供参考与支持。</p><p>2022.7.7</p><p>Solitude21</p>]]></content>
+    <content type="html"><![CDATA[<p>窃以为，创造乃学习的一大动力。</p><p>在高中的时候，我们反反复复地经历各种各样的考试。这些考试会频繁地给予我们正面的或是负面的反馈。正面的反馈鼓舞人心，负面的反馈催人上进。打个不恰当的比喻，考试就如同胡萝卜加大棒，时而给我们尝点甜头，时而又让我们吃点苦。我们在高中时期的学习动力很大一部分来源于这些喜怒无常的考试结果。</p><p>然而，上大学后，我们只能在期中和期末获取来自考试的反馈。如果仍然以考试结果作为学习的主要动力的话，我个人认为这是难以维系的。另外，我们需要认识到，高中时代的落幕意味着应试教育的退场，考试将不再是我们学习的唯一目的。我们从今往后所学的一切知识，都是为了更崇高、也更有意义的目的，那就是创造。</p><p>人与机器的最大差别就在于是否懂得<strong>自主创造</strong>。以往，我们机械地回答着试卷上的一道道问题，考试将我们异化成为了考试而学习的做题机器，我们的一切“创造”都离不开问题的引导。如今，我们若要实现身份的转变，就要学会自己“创造”问题并解决问题，并在此过程中获取巨大的成就感与继续学习的动力。只有这样，我们才能脱离做题家的思维定式，成为一个能够用自身所学自主创造新事物的完整的人。</p><p>云知计划，旨在将我所学到的知识内化于心，外化于一篇篇云端笔记。可以说，高中时代的最大创造活动非记笔记莫属了，但彼时的笔记带有很强的功利性与目的性，<a href="https://solitude21.gitee.io/">云知计划1.0</a>与云知计划2.0仅仅围绕六门主科展开，应试色彩浓厚。如今的云知计划3.0着眼于更广泛的学科内容，收录的所有笔记都将为未来的创造活动提供参考与支持。</p><p>2022.7.7</p><p>Solitude21</p>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;窃以为，创造乃是学习的一大动力。&lt;/p&gt;
-&lt;p&gt;在高中的时候，我们反反复复地经历各种各样的考试。这些考试会频繁地给予我们正面的或是负面的反馈。正面的反馈鼓舞人心，负面的反馈催人上进。打个不恰当的比喻，考试就如同胡萝卜加大棒，时而给我们尝点甜头，时而又让我们吃点苦。我们在高</summary>
+    <summary type="html">&lt;p&gt;窃以为，创造乃学习的一大动力。&lt;/p&gt;
+&lt;p&gt;在高中的时候，我们反反复复地经历各种各样的考试。这些考试会频繁地给予我们正面的或是负面的反馈。正面的反馈鼓舞人心，负面的反馈催人上进。打个不恰当的比喻，考试就如同胡萝卜加大棒，时而给我们尝点甜头，时而又让我们吃点苦。我们在高中时</summary>
       
     
     

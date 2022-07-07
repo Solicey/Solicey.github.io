@@ -118,7 +118,7 @@ body,
 body {
   color: #565a5f;
   background: #ebeef1;
-  font: 17px Georgia, STZhongsong, "PingFang SC", serif, Georgia, "Times New Roman", "Microsoft Yahei";
+  font: 18px Georgia, STZhongsong, "PingFang SC", serif, Georgia, "Times New Roman", "Microsoft Yahei";
   -webkit-text-size-adjust: 100%;
 }
 a {
@@ -466,9 +466,9 @@ code {
 }
 .nav-icon {
   text-align: center;
-  font-size: 17px;
-  width: 17px;
-  height: 17px;
+  font-size: 18px;
+  width: 18px;
+  height: 18px;
   position: relative;
   cursor: pointer;
   height: 40px !important;
@@ -568,7 +568,7 @@ code {
   line-height: 1.6em;
   outline: none !important;
   background: none !important;
-  font: 17px "open sans", "Helvetica Neue", "Microsoft Yahei", Helvetica, Arial, sans-serif;
+  font: 18px "open sans", "Helvetica Neue", "Microsoft Yahei", Helvetica, Arial, sans-serif;
   border: 1px solid #dfe1e2 !important;
 }
 .search-form-input:focus,
@@ -677,7 +677,7 @@ code {
   font-weight: 600;
 }
 #profile .inner .base-info #location {
-  font-size: 15px;
+  font-size: 16px;
   margin-top: 5px;
   color: #9a9ea3;
 }
@@ -722,11 +722,11 @@ code {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  font-size: 23px;
+  font-size: 24px;
 }
 #profile .inner .article-info .article-info-block span {
   display: block;
-  font-size: 17px;
+  font-size: 18px;
   text-transform: uppercase;
 }
 #profile .inner .article-info .article-info-block:first-child {
@@ -737,7 +737,7 @@ code {
 }
 #profile .inner .social-links > table td {
   text-align: center;
-  font-size: 27px;
+  font-size: 28px;
 }
 #profile .inner .social-links > table td a {
   position: relative;
@@ -1041,7 +1041,7 @@ div.article-meta-button a:hover {
   position: relative;
 }
 .article-entry blockquote footer {
-  font-size: 17px;
+  font-size: 18px;
   margin: 1.6em 0;
   font-family: "open sans", "Helvetica Neue", "Microsoft Yahei", Helvetica, Arial, sans-serif;
 }
@@ -1356,7 +1356,7 @@ div .article-more-link {
 }
 .toc-article {
   background: #f9f9f9;
-  margin: 2em 0 0 0.2em;
+  margin: 2em 0 0 0.4em;
   padding: 1em;
   border: 1px solid #000;
   border-radius: 0px;
@@ -1373,7 +1373,7 @@ ol.toc {
 }
 #toc {
   line-height: 1em;
-  font-size: 0.8em;
+  font-size: 1em;
   float: right;
 }
 #toc .toc {
@@ -1578,7 +1578,7 @@ ol.toc {
 .layout-wrap-inner.list-categories ul li,
 .layout-wrap-inner.list-categories ul .category-list-child {
   padding: 10px 0;
-  font-size: 17px;
+  font-size: 18px;
   border-bottom: 1px solid border-color;
 }
 .layout-wrap-inner.list-categories ul li a,
@@ -1750,7 +1750,7 @@ ol.toc {
   padding: 20px 0;
   border-top: 1px solid #dfe1e2;
   color: #565a5f;
-  font-size: 19px;
+  font-size: 20px;
   text-align: center;
 }
 #footer .outer {
@@ -1899,7 +1899,7 @@ ol.toc {
 .widget ul .category-list-child,
 .widget ol .category-list-child {
   padding: 10px 0;
-  font-size: 17px;
+  font-size: 18px;
   border-bottom: 1px solid border-color;
 }
 .widget ul li a,
@@ -2060,7 +2060,7 @@ ol.toc {
 }
 #categories {
   text-shadow: 0 1px 0 #fff;
-  font-size: 13px;
+  font-size: 17px;
 }
 #categories ul {
   margin-bottom: 0;
@@ -2107,7 +2107,7 @@ ol.toc {
 #categories li a:focus:before {
   content: "↪";
   float: left;
-  margin-left: -13px;
+  margin-left: -18px;
   font-weight: bold;
   color: #333;
 }
@@ -2262,9 +2262,9 @@ ol.toc {
   display: block;
   overflow-x: auto;
   padding: 15px 20px;
-  font-size: 17px;
+  font-size: 18px;
   font-family: "Fira Code", "Source Code Pro", Consolas, Monaco, Menlo, Consolas, monospace;
-  line-height: 27.200000000000003px;
+  line-height: 28.8px;
 }
 .highlight table {
   margin: 0;
@@ -2290,6 +2290,7 @@ ol.toc {
 .highlight {
   color: #ddd;
   background: #272822;
+  font-size: 15px;
 }
 .highlight .code .tag,
 .highlight .code .keyword,
