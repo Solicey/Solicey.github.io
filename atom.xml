@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>云知计划</title>
+  
+  <subtitle>Yun Zhi Project</subtitle>
+  <link href="https://solicey.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://solicey.github.io/"/>
+  <updated>2022-07-07T10:25:42.652Z</updated>
+  <id>https://solicey.github.io/</id>
+  
+  <author>
+    <name>Solitude21</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>云知计划3.0</title>
+    <link href="https://solicey.github.io/wiki/hello-world/"/>
+    <id>https://solicey.github.io/wiki/hello-world/</id>
+    <published>2022-07-07T05:28:45.540Z</published>
+    <updated>2022-07-07T10:25:42.652Z</updated>
+    
+    <content type="html"><![CDATA[<p>窃以为，创造乃是学习的一大动力。</p><p>在高中的时候，我们反反复复地经历各种各样的考试。这些考试会频繁地给予我们正面的或是负面的反馈。正面的反馈鼓舞人心，负面的反馈催人上进。打个不恰当的比喻，考试就如同胡萝卜加大棒，时而给我们尝点甜头，时而又让我们吃点苦。我们在高中时期的学习动力很大一部分来源于这些喜怒无常的考试结果。</p><p>然而，上大学后，我们只能在期中和期末获取来自考试的反馈。如果仍然以考试结果作为学习的主要动力的话，我个人认为这是难以维系的。另外，我们需要认识到，高中时代的落幕意味着应试教育的退场，考试将不再是我们学习的唯一目的。我们从今往后所学的一切知识，都是为了更崇高、也更有意义的目的，那就是创造。</p><p>人与机器的最大差别就在于是否懂得<strong>自主创造</strong>。以往，我们机械地回答着试卷上的一道道问题，考试将我们异化成为了考试而学习的做题机器，我们的一切“创造”都离不开问题的引导。如今，我们若要实现身份的转变，就要学会自己“创造”问题并解决问题，并在此过程中获取巨大的成就感与继续学习的动力。只有这样，我们才能脱离做题家的思维定式，成为一个能够用自身所学自主创造新事物的完整的人。</p><p>云知计划，旨在将我所学到的知识内化于心，外化于一篇篇云端笔记。可以说，高中时代的最大创造活动非记笔记莫属了，但彼时的笔记带有很强的功利性与目的性，<a href="https://solitude21.gitee.io/">云知计划1.0</a>与云知计划2.0仅仅围绕六门主科展开，应试色彩浓厚。如今的云知计划3.0着眼于更广泛的学科内容，收录的所有笔记都将为未来的创造活动提供参考与支持。</p><p>2022.7.7</p><p>Solitude21</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;窃以为，创造乃是学习的一大动力。&lt;/p&gt;
+&lt;p&gt;在高中的时候，我们反反复复地经历各种各样的考试。这些考试会频繁地给予我们正面的或是负面的反馈。正面的反馈鼓舞人心，负面的反馈催人上进。打个不恰当的比喻，考试就如同胡萝卜加大棒，时而给我们尝点甜头，时而又让我们吃点苦。我们在高</summary>
+      
+    
+    
+    
+    <category term="日志" scheme="https://solicey.github.io/categories/%E6%97%A5%E5%BF%97/"/>
+    
+    
+    <category term="intro" scheme="https://solicey.github.io/tags/intro/"/>
+    
+  </entry>
+  
+</feed>
