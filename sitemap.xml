@@ -38,6 +38,15 @@
   </url>
   
   <url>
+    <loc>https://solicey.github.io/categories/index.html</loc>
+    
+    <lastmod>2022-07-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://solicey.github.io/about/index.html</loc>
     
     <lastmod>2022-07-07</lastmod>
@@ -48,15 +57,6 @@
   
   <url>
     <loc>https://solicey.github.io/tags/index.html</loc>
-    
-    <lastmod>2022-07-07</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://solicey.github.io/categories/index.html</loc>
     
     <lastmod>2022-07-07</lastmod>
     
@@ -95,14 +95,14 @@
   </url>
   
   <url>
-    <loc>https://solicey.github.io/tags/hexo/</loc>
+    <loc>https://solicey.github.io/tags/intro/</loc>
     <lastmod>2022-07-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://solicey.github.io/tags/intro/</loc>
+    <loc>https://solicey.github.io/tags/hexo/</loc>
     <lastmod>2022-07-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -118,14 +118,14 @@
   </url>
   
   <url>
-    <loc>https://solicey.github.io/categories/%E5%9B%BE%E5%BD%A2%E5%AD%A6/GAMES101/</loc>
+    <loc>https://solicey.github.io/categories/%E6%97%A5%E5%BF%97/</loc>
     <lastmod>2022-07-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://solicey.github.io/categories/%E6%97%A5%E5%BF%97/</loc>
+    <loc>https://solicey.github.io/categories/%E5%9B%BE%E5%BD%A2%E5%AD%A6/GAMES101/</loc>
     <lastmod>2022-07-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
